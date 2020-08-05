@@ -7,6 +7,7 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 function johnLennonFacts(facts){
+<<<<<<< HEAD
   var array =[];
   let i=0;
   while(i<facts.length){
@@ -14,6 +15,14 @@ function johnLennonFacts(facts){
     i ++
   }
   return array 
+=======
+  let i=0;
+  while(i<facts.length){
+    `${facts[i]} + !!!`
+    i ++
+  }
+  return facts
+>>>>>>> c975dbfee5042ebcb0b062f620c52a573a57de5a
 }
 
 function iLoveTheBeatles(num){
